@@ -1,0 +1,130 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;/*no cree espacios hacia afuera*/
+	font-family: sans-serif;
+}
+main{
+	width: 100%;
+	display: flex;
+}
+header{
+	width: 100%;
+	height: 60px;
+	background-color: #009E0F;
+}
+header span{
+	font-size: 30px;
+	padding: 10px;
+	color: #fff;
+}
+ header span:hover{
+ 	background-color: rgb(0,0,0,0.4);
+ 	border-radius: 10px;
+ 	transition: all 300ms;
+ 	cursor: pointer;
+ 	position: relative;
+ 	top: 5px;
+ 	left: 10px;
+ }
+.contenedor-menu{
+	width: 120px;
+	background-color: #009E0F;
+	transition: all 500ms;
+}
+.contenedor-menu2{
+	margin-left: -100px;
+	background-color: #e1e1e1;
+}
+.contenedor-menu li{
+	list-style: none;
+	text-align: center;
+	padding: 15px;
+	color: #fff;
+}
+.contenedor-menu li:hover {
+	transform: translateY(10px);
+	transition: all 300ms;
+	cursor: pointer;
+	 border-top: 1px solid #fff;
+	 border-bottom: 1px solid #fff;
+}
+
+.contenedor-menu li span{
+	font-size: 2rem;
+}
+.contenedor-menu li h6{
+	font-weight: 100;
+	font-size: 12px;
+	transform: translateX(-110px);
+	transition: all 500ms;
+
+}
+.icon1{
+	color: #073763;
+}
+.icon2{
+	color: #073763;
+}
+.icon3{
+	color: #073763;
+}
+.icon4{
+	color: #073763;
+}
+.icon5{
+	color: #073763;
+}
+.icon6{
+	color: #073763;
+}
+.contenedor-menu:hover .texto1{
+	transform: translateX(0px);
+	transition: all 100ms;
+}
+.contenedor-menu:hover .texto2{
+	transform: translateX(0px);
+	transition: all 200ms;
+}
+.contenedor-menu:hover .texto3{
+	transform: translateX(0px);
+	transition: all 300ms;
+}
+.contenedor-menu:hover .texto4{
+	transform: translateX(0px);
+	transition: all 400ms;
+}
+.contenedor-menu:hover .texto5{
+	transform: translateX(0px);
+	transition: all 500ms;
+}
+.crud{
+	width: 98%;
+	margin-left: 0;
+	background-color: #e1e1e1;
+}
+.cerrar{
+	color: white;
+	margin-top: 0;
+	margin-top: -10px;
+}
+.sub_pro{
+	padding-left: 0;
+	margin-left: 0;
+}
+.sub_pro li{
+	text-decoration: none;
+	margin-left: 10px;
+	margin-top: -20px;
+	padding: 20px;
+	list-style: none;
+	display: none;
+	width: 6.5rem;		
+}
+.sub_pro li:hover{
+	color: #000;
+	border-top: 0px;
+	border-bottom: 0px 
+}
+
